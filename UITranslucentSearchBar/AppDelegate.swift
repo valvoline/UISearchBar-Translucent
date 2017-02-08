@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  UITranslucentSearchBar
 //
-//  Created by valvoline on 08/02/2017.
+//  Created by Costantino Pistagna on 08/02/2017.
 //  Copyright © 2017 sofapps. All rights reserved.
 //
 

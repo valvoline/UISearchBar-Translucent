@@ -12,16 +12,18 @@
 		2B233A9A1E4B1750006EEC9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B233A981E4B1750006EEC9C /* Main.storyboard */; };
 		2B233A9C1E4B1750006EEC9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B233A9B1E4B1750006EEC9C /* Assets.xcassets */; };
 		2B233A9F1E4B1750006EEC9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B233A9D1E4B1750006EEC9C /* LaunchScreen.storyboard */; };
+		2B233AA71E4B2231006EEC9C /* UISearchBar+Translucent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B233AA61E4B2231006EEC9C /* UISearchBar+Translucent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2B233A911E4B1750006EEC9C /* UITranslucentSearchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITranslucentSearchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B233A941E4B1750006EEC9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2B233A961E4B1750006EEC9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B233A941E4B1750006EEC9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = UITranslucentSearchBar/AppDelegate.swift; sourceTree = "<group>"; };
+		2B233A961E4B1750006EEC9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = UITranslucentSearchBar/ViewController.swift; sourceTree = "<group>"; };
 		2B233A991E4B1750006EEC9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B233A9B1E4B1750006EEC9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B233A9E1E4B1750006EEC9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B233AA01E4B1750006EEC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B233AA61E4B2231006EEC9C /* UISearchBar+Translucent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UISearchBar+Translucent.swift"; path = "UITranslucentSearchBar/UISearchBar+Translucent.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +40,10 @@
 		2B233A881E4B174F006EEC9C = {
 			isa = PBXGroup;
 			children = (
-				2B233A931E4B1750006EEC9C /* UITranslucentSearchBar */,
+				2B233A941E4B1750006EEC9C /* AppDelegate.swift */,
+				2B233A961E4B1750006EEC9C /* ViewController.swift */,
+				2B233AA61E4B2231006EEC9C /* UISearchBar+Translucent.swift */,
+				2B233A931E4B1750006EEC9C /* Resources */,
 				2B233A921E4B1750006EEC9C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,16 +56,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2B233A931E4B1750006EEC9C /* UITranslucentSearchBar */ = {
+		2B233A931E4B1750006EEC9C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2B233A941E4B1750006EEC9C /* AppDelegate.swift */,
-				2B233A961E4B1750006EEC9C /* ViewController.swift */,
 				2B233A981E4B1750006EEC9C /* Main.storyboard */,
 				2B233A9B1E4B1750006EEC9C /* Assets.xcassets */,
 				2B233A9D1E4B1750006EEC9C /* LaunchScreen.storyboard */,
 				2B233AA01E4B1750006EEC9C /* Info.plist */,
 			);
+			name = Resources;
 			path = UITranslucentSearchBar;
 			sourceTree = "<group>";
 		};
@@ -137,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B233A971E4B1750006EEC9C /* ViewController.swift in Sources */,
+				2B233AA71E4B2231006EEC9C /* UISearchBar+Translucent.swift in Sources */,
 				2B233A951E4B1750006EEC9C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
