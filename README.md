@@ -13,12 +13,12 @@ As you can see, the tableview rows will scroll behind the UINavigationBar and UI
 
 Requirements
 ------------
-- iOS 6+
+- iOS 7+
 
 
 Why?
 ---
-Some of us was in search of a UIButton with this capabilities during a challenge here on iOS developer Academy. This is what we need.
+Some of our students were in search of a UISearchBar with this capabilities during a challenge here on iOS developer Academy.
 
 
 Manual Installation
@@ -28,7 +28,7 @@ Just drag the Extension file on your project.
 
 How to use
 ----------
-No special use. The UIButton just inherits the required capabilities. That's it.
+No special use. The UISearchBar just inherits the required capabilities. That's it.
 
 
 The BSD-3 License
