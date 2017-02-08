@@ -1,16 +1,14 @@
-UIButton+Alpha Mask
-===================
+UISearchBar+Translucent
+=======================
 
-Sometimes you require to pass on touch events to the UIButton underneath if the alpha channel is 0 (ie. the pixel is transparent).
+UISearchBar+Translucent is a very tiny and nifty extension that allows you to use the translucent features within the standard UISearchBar component.
 
-This way you can stack more than one button and react to specific area creating, in effect, a non squareish appearance. 
+The proposed solution is really simple. It involves the use of two extensions (one for UIImage and one for UISearchBar). The first one is used to create fake UIImage of 1x1 px starting from a UIColor. We take advantage of this technique to inject a fake transparent background inside the UISearchBar backgroundImage and scopeBarBackgroundImage property. The second extension allows you to use a convenience init method to take full advantage of this system within your working code.
 
-The proposed solution is really simple. It involves the use of two extensions (one for UIImage and one for UIButton). We test against the specified area tapped in search for the alpha channel; if it is non transparent than we catch the event, otherwise we propagate the pointInside:withEvent:
-
-As you can see, the two buttons overlap themselves and share the same area. They share a common triangle style area and some of the touch events on transparent areas are passed on to the green UIButton underneath (and viceversa).
+As you can see, the tableview rows will scroll behind the UINavigationBar and UISearchBar and both of the components react in the same way by offering a graceful translucent effect.
 
 <p align="center">
-	<img src="https://github.com/valvoline/UIButton-AlphaMask/blob/master/UIButtonMask.gif" width="306" height=549>
+	<img src="https://github.com/valvoline/UISearchBar-Translucent/blob/master/gifanimation.gif" width="306" height=549>
 </p>
 
 Requirements
